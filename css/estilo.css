@@ -3,46 +3,53 @@
     padding: 0;
 }
 
-/* CONFIGURAÇÕES INICIAIS DO BODY */
+
 body {
-    /* configuração das fontes de texto */
+    
     font-size: 30px;
+
     font-family: "Roboto", sans-serif;
+
     font-weight: 300;
+
     font-style: normal;
 
-    /* configuração do tamanho de tela */
+
     width: 100vw;
+
     height: 100vh;
 
-    /* orientação dos elementos na tela */
+
     display: flex;
+
     flex-direction: column;
 
-    /* cor do fundo */
+
     background-color: #fff;
 
   }
 
 header{
     background-color: #fff;
-    /* altura do header */
+
     height: 60px;
 
-    /* fonte do texto */
+
     font-size: 16px;
 
-    /* alinhamento dos ítens */
+
     display: flex;
-    justify-content: flex-end; /*coloca os ítens a direita*/
-    align-items: center; /* alinhamento no centro horizontal */
+
+    justify-content: flex-end; 
+
+    align-items: center;
 }
 
 .link{
     text-decoration: none;
     padding-left: 10px;
     padding-right: 20px;
-    color: #1f1f1f; /*cor do texto */
+    color: #1f1f1f; 
 
 }
 
@@ -78,23 +85,23 @@ header{
     margin-right: 10px;
 }
 
-/* efeito hover em cima do botão */
+
 
 .botao:hover{
     background-color: #1A73E8e8;
 }
 
 
-/* ajuste do tamanho do ícone */
+
 ion-icon{
     font-size: 20px;
     padding: 8px;
-    /* tempo de transição do efeito hover */
+
     transition: 0.3s;
     border-radius: 20px;
 }
 
-/* efeito hover em cima do ícone */
+
 ion-icon:hover{
     background-color: #DCDCDC;
     border-radius: 20px;
@@ -103,28 +110,27 @@ ion-icon:hover{
 
 main{
     background-color: #fff;
-    /* como o body é um elemento flex, coloca flex-grow aqui para preencher */
+ 
     flex-grow: 1;
 
     display: flex;
-    flex-direction: column; /*organiza os ítens em colunas*/
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
-footer{
-    background-color: #f2f2f2; /*cor do fundo */
-    color: #1f1f1f; /*cor do texto */
-    /* altura do footer */
+footer{ 
+    background-color: #f2f2f2;
+    color: #1f1f1f; 
     height: 60px;
     border-bottom: 1px solid #DDDFE3;
 
-    /* tamanho da fonte */
+
     font-size: 18px;
 
-    /* espaçamento interno à esquerda */
+
     padding-left: 18px;
 
-    /* alinhamento no centro horizontal */
+
     display: flex;
     align-items: center;
 }
